@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>XMARKGAMES::Playing</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    
+    <!--  for the dropdowns -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("medium");
+  });
+});
+</script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip2").click(function(){
+    $("#panel2").slideToggle("medium");
+  });
+});
+</script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip3").click(function(){
+    $("#panel3").slideToggle("medium");
+  });
+});
+</script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip4").click(function(){
+    $("#panel4").slideToggle("medium");
+  });
+});
+</script>
+
+<style> 
+#panel,#flip
+{
+padding:5px;
+text-align:center;
+background-color:black;
+border:solid 1px black;
+border-radius:10px;
+color:White;
+text-shadow:0px 0px black;
+opacity:.7;
+}
+#panel
+{
+color:white;
+background-color:black;
+padding:50px;
+display:none;
+border-radius:15px;
+opacity:.9;
+text-align:left;
+height:250px;
+}
+</style>
+
+<style> 
+#panel2,#flip2
+{
+padding:5px;
+text-align:center;
+background-color:white;
+border:solid 1px black;
+border-radius:10px;
+color:grey;
+text-shadow:0px 0px black;
+opacity:.7;
+}
+#panel2
+{
+color:white;
+background-color:black;
+padding:50px;
+display:none;
+border-radius:15px;
+opacity:.9;
+text-align:left;
+height:250px;
+}
+</style>
+
+<style> 
+#panel3,#flip3
+{
+padding:5px;
+text-align:center;
+background-color:black;
+border:solid 1px black;
+border-radius:10px;
+color:red;
+text-shadow:0px 0px black;
+opacity:.7;
+}
+#panel3
+{
+color:white;
+background-color:black;
+padding:50px;
+display:none;
+border-radius:15px;
+opacity:.9;
+text-align:left;
+height:250px;
+}
+</style>
+
+<style> 
+#panel4,#flip4
+{
+padding:5px;
+text-align:center;
+background-color:white;
+border:solid 1px black;
+border-radius:10px;
+color:blue;
+text-shadow:0px 0px black;
+opacity:.7;
+}
+#panel4
+{
+color:white;
+background-color:black;
+padding:50px;
+display:none;
+border-radius:15px;
+opacity:.9;
+text-align:left;
+height:250px;
+}
+</style>
+
+    
+    
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+	<header><h1><img src="logo.png" alt="logo"></h1></header>
+	
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>&nbsp;Game Blogs <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">PS3</li>
+                    <li><a href="minecraft.html">MineCraft</a></li>
+                    <li><a href="gta.html">Grand Theft Auto V</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">PC</li>
+                    <li><a href="lol.html">League of Legends</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">3DS</li>
+                    <li><a href="pokemon.html">Pokemon OR/AS</a></li>
+                    <li><a href="ssb.html">Super Smash Bros</a></li>
+                    <li class="divider"></li>
+                    
+                  </ul>
+                </li>
+                <li><a href="playing.html"><span class="glyphicon glyphicon-play" aria-hidden="true"></span>&nbsp;Currently Playing</a></li>
+                <li><a href="upcoming.html"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span>&nbsp;Upcoming Games</a></li>
+                
+                <li><a href="about.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;About</a></li>
+                <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;Suggest a Game</a></li>
+
+                
+                
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+  <div id="content">
+    	<h1>Currently Playing</h1>
+
+		<div id="flip">PS3 Games</div>
+		<div id="panel">
+        		<div class="span1">
+					Minecraft for PS3<br><img src="playing/minecraft.jpg" alt="Minecraft" style="width:80px;height:80px">
+                </div>
+                <div class="span1">
+					Call of Duty: Black Ops 2<br><img src="playing/BOPS.jpg" alt="gta" style="width:80px;height:80px">
+        		</div>
+        </div>
+
+		<br>
+		<div id="flip2">WII Games</div>
+		<div id="panel2">
+			<div class="span1">Super Mario Bros. Wii<br><img src="playing/mario.png" alt="SuperMario" style="width:80px;height:80px">
+            </div>
+			<div class="span1">Mario Kart Wii<br><img src="playing/mariokart.png" alt="mario kart" style="width:80px;height:80px">
+            </div>
+			<div class="span1">Kirby<br><img src="playing/kirby.jpg" alt="kirby" style="width:80px;height:80px">
+            </div>
+		</div>
+
+		<br>
+		<div id="flip3">3DS</div>
+		<div id="panel3">
+			<div class="span1">Pokemon Omega Ruby<br><img src="playing/pokemon.jpg" alt="pokemon" style="width:80px;height:80px"></div>
+			<div class="span1">Super Smash Bros. 3DS<br><img src="playing/ssb.jpg" alt="super smash" style="width:80px;height:80px"></div>
+		</div>
+
+		<br>
+		<div id="flip4">PC</div>
+		<div id="panel4">
+        <div class="span1"> League of Legends<br><img src="playing/lol.jpg" alt="league" style="width:80px;height:80px"></div>
+        <div class="span1"> Mabinogi<br><img src="playing/mabi.jpg" alt="league" style="width:80px;height:80px"></div>
+        
+        </div>
+   </div>
+    
+
+
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="dist/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

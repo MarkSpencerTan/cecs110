@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {color:#666666; 
+	  background-color:white;}
+header{color:white;
+       background-color:#000033;}
+h1 {margin-bottom:0;
+	background-color:#000033;
+    background-image:url(sunset.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	padding:10px}
+
+
+
+	
+#nav {background-color:#90C7E3;}
+
+h2 {color:#3399CC;}
+
+h3 {color:#000033;}
+
+dt{color:#000033;}
+
+.resort{color:#000033;}

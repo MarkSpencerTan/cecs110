@@ -1,0 +1,44 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color:black;
+  color:white;
+  
+}
+
+header{background-color:black;
+	   box-shadow: 0px 5px 5px #FF0000;
+	   border-radius: 25px;
+	   margin-left:50px;;
+	   margin-right:50px;
+	   text-align:center;
+	   opacity:.9;
+	   }	
+	 
+header h1{ 
+	padding:10px;
+	height:150px;
+	bottom:20px;
+	border-radius: 25px;
+	
+	}
+header h1 img{max-width:100%;
+max-height:80%;
+width:700px;
+height:120px;
+padding-bottom:20px;}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.dropdown-menu{opacity:.9;}
+
+
+
+
+
